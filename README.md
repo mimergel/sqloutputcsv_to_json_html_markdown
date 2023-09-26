@@ -35,7 +35,7 @@ To stop debugging, use Ctrl-C in the terminal.
 # Test the function
 In a separate terminal run:
 
-`
+```
 csv_data='CARRNAME,ECONOMY_OCCUPATION,BUSINESS_OCCUPATION,FIRST_OCCUPATION
 "Alitalia",822,75,47
 "American Airlines",694,59,40
@@ -44,8 +44,8 @@ csv_data='CARRNAME,ECONOMY_OCCUPATION,BUSINESS_OCCUPATION,FIRST_OCCUPATION
 "Qantas Airways",315,27,20
 "United Airlines",1861,136,86'
 
-echo "$csv_data" | curl -X POST http://localhost:7071/api/[your_function_name]?response_type=chart -H "Content-Type: text/csv" --data-binary @-
-`
+echo "$csv_data" | curl -X POST http://localhost:7071/api/[your_function_name]?response_type=markdown -H "Content-Type: text/csv" --data-binary @-
+```
 
 
 
