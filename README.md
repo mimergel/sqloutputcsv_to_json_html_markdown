@@ -33,7 +33,7 @@ The runtime will output a URL for any HTTP functions, which can be copied and ru
 To stop debugging, use Ctrl-C in the terminal.
 
 # Test the function
-In a separate terminal run:
+In a separate terminal run the following. Use your_function_name.
 
 ```
 csv_data='CARRNAME,ECONOMY_OCCUPATION,BUSINESS_OCCUPATION,FIRST_OCCUPATION
